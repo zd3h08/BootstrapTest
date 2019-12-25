@@ -5,14 +5,14 @@ body {
     padding-top: 100px;
 }
 
-h2 {
+.topics {
+  &__title {
     color: $primary;
-
     &:hover {
         color: blue;
-    }
+  }
 }
-
-.topics p {
+  &__detail {
     text-align: justify;
+  }
 }
